@@ -6,7 +6,7 @@ int buttonApin = 9; //button z niebieskim kabelkiem
 int buttonBpin = 8; //button z zoltym kabelkiem
 byte leds = 0;
 
-void setuptask4()
+void setuptask5()
 {
     pinMode(ledPin, OUTPUT);
     pinMode(buttonApin, INPUT_PULLUP);  
@@ -14,9 +14,9 @@ void setuptask4()
     Serial.begin(9600); //inicjalizacja komunikacji szeregowej
 }
 
-void looptask4()
+void looptask5()
 {
-    int stateA = digitalRead(buttonApin);
+    int stateA = digitalRead(buttonApin);//odczyt cyfrowy stanu przycisku
     int stateB = digitalRead(buttonBpin);
 
     if (stateA == LOW)

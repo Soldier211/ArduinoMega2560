@@ -2,7 +2,7 @@
 #define BLUE 3
 #define GREEN 5
 #define RED 6
-void setuptask3()
+void setuptask4()
 {
     pinMode(RED, OUTPUT);
     pinMode(GREEN, OUTPUT);
@@ -17,7 +17,7 @@ int redValue;
 int greenValue;
 int blueValue;
 
-void looptask3()
+void looptask4()
 {
     #define delayTime 15 //fading time between colors
     redValue = 255;
