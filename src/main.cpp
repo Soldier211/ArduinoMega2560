@@ -1,10 +1,10 @@
 #include <Arduino.h>
-#include "../lib/second_ten/task15.h"
+#include "../lib/weird_creation/w1.h"
 
 void setup() {
-  setuptask15();
+  setupw1();
 }
 
 void loop() {
-  looptask15();
+  loopw1();
 }
