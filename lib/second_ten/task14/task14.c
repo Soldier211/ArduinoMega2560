@@ -1,4 +1,4 @@
-#include <IRremote.hpp>
+#include "task14.h"
 //pin sygnalu odbiornika IR podlaczony do cyfrowego pinu 11 Arduino (digital)
 //Y - oznacza data
 int receiverPin = 11; 
