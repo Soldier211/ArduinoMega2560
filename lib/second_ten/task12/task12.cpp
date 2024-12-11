@@ -1,9 +1,4 @@
-#include <Adafruit_Sensor.h>
-#include <DHT.h>
-#include <DHT_U.h>
-
-#define DHTTYPE DHT11
-#define DHTPIN 2
+#include "task12.h"
 
 DHT_Unified dht(DHTPIN, DHTTYPE);
 

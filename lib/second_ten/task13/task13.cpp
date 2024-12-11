@@ -1,6 +1,4 @@
-const int SW_pin = 2;
-const int X_pin = 0;
-const int Y_pin = 1;
+#include "task13.h"
 
 void setuptask13()
 {
