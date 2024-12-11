@@ -1,3 +1,5 @@
+#include "task6.h"
+
 int buzzer = 12;//the pin of the active buzzer
 void setuptask6()
 {

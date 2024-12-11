@@ -1,4 +1,4 @@
-#include <pitches.h>
+#include "task7.h"
 // notes in the melody:
 int melody[] = {
   NOTE_C5, NOTE_D5, NOTE_E5, NOTE_F5, NOTE_G5, NOTE_A5, NOTE_B5, NOTE_C6};

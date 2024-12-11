@@ -1,5 +1,4 @@
-#include <Arduino.h>
-
+#include "task5.h"
 
 int ledPin = 5; //zapala sie LED badz nie
 int buttonApin = 9; //button z niebieskim kabelkiem
@@ -37,5 +36,3 @@ void looptask5()
         Serial.println("-------------");
     }
 }
-
-
